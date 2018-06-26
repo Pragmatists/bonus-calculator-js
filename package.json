@@ -1,0 +1,10 @@
+{
+  "name": "bonus-calculator-javascript",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^22.0.5"
+  }
+}
