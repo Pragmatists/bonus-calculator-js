@@ -1,8 +1,6 @@
 Bonus Calculator
 ================
 
-You are going to use the TDD process to test-drive a BonusCalculator that will calculate individual bonuses and team bonuses.
-
 ### Individual Bonus
 To calculate the bonus, you need to know the salesperson's total sales amount, their quota, their commission percentage and any tax that must be deducted.
 
@@ -20,11 +18,12 @@ A member of a sales team is entitled to a bonus if their team's total sales exce
 
 *Examples
 
-Sales	Quota	Commission Percentage	Team Members	Resulting Value
-12000	11000	10			            4		        25.0
-12000	15000	10			            4		        0.0
-12000	12000	10			            4		        0.0
-12000	11000	10			            0		        0.0
+|Sales|	Quota|	Commission Percentage|	Team Members|	Resulting Value|
+|-----|------|---------------------|-------------|-----------------|
+|12000|	11000|	10			           | 4		       | 25.0|
+|12000|	15000|	10			           | 4		       | 0.0|
+|12000|	12000|	10			           | 4		       | 0.0|
+|12000|	11000|	10			           | 0		       | 0.0|
 
 
 
