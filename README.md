@@ -1,5 +1,10 @@
 Bonus Calculator
 ================
+## Build
+`npm install`
+`npm run jest`
+
+## Kata rules
 
 ### Individual Bonus
 To calculate the bonus, you need to know the salesperson's total sales amount, their quota, their commission percentage and any tax that must be deducted.
