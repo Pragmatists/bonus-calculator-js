@@ -1,15 +1,16 @@
 Bonus Calculator
 ================
 ## Build
-`npm install`
-`npm run jest`
+`npm install`  
+`npm run test` - run all tests  
+`npm run test--collect-coverage`  - run all test with code coverage  
 
 ## Kata rules
 
 ### Individual Bonus
 To calculate the bonus, you need to know the salesperson's total sales amount, their quota, their commission percentage and any tax that must be deducted.
 
-*Examples
+*Examples:*
 
 |Sales	|Quota|	Commission Percentage|	Tax Percentage | Resulting Value|
 |-------|-----|----------------------|-------------------------|---|
@@ -21,7 +22,7 @@ To calculate the bonus, you need to know the salesperson's total sales amount, t
 ### Team Bonus
 A member of a sales team is entitled to a bonus if their team's total sales exceeds their team's quota.
 
-*Examples
+*Examples:*
 
 |Sales|	Quota|	Commission Percentage|	Team Members|	Resulting Value|
 |-----|------|---------------------|-------------|-----------------|

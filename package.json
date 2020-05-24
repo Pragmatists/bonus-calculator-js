@@ -1,14 +1,21 @@
 {
   "name": "bonus-calculator-javascript",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Pragmatists/bonus-calculator-js.git"
+  },
+  "license": "Apache-2.0",
   "version": "0.0.1",
   "scripts": {
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^22.0.5"
+    "jest": "26.0.1"
   },
   "jest": {
-    "forceCoverageMatch": ["**/*.js"],
+    "forceCoverageMatch": [
+      "**/*.js"
+    ],
     "collectCoverage": true
   }
 }
